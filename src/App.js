@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import Redux from "./redux/redux";
+import Counter from "./redux/Counter"
 
 const App = () => {
   const name = "KC";
@@ -11,6 +12,7 @@ const App = () => {
       <h1>Test Section</h1>
       <Contents name={name} />
       <Redux />
+      <Counter />
     </AppWapper>
   );
 };
